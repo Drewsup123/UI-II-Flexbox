@@ -79,7 +79,7 @@ h1{
   background-color:rgb(172, 192, 224);
   z-index: 1;
   display:flex;
-  width:1200px;
+  width:1160px;
   justify-content:space-between;
 }
 .container header .top-nav{
@@ -198,10 +198,17 @@ header .logo{
 SERVICES.HTML CSS ONLY!
 
 --------------------*/
-
+.container .services-header-img{
+  width:1160px;
+  height:auto;
+  margin-top:30px;
+  margin-bottom: 30px;
+}
 .container .services{
   display:flex;
   flex-direction:column;
+  padding-bottom:50px;
+  border-bottom: 2px solid black;
 }
 .container .columns{
   display:flex;
@@ -231,4 +238,18 @@ SERVICES.HTML CSS ONLY!
   display:flex;
   justify-content: center;
   margin-top:15px;
+}
+.container .fun-facts{
+  display:flex;
+  margin-top:20px;
+  padding-top:50px;
+  border-top:3px solid black;
+  justify-content: space-between;
+}
+.container .fun-facts .fun-facts-text{
+  width:50%;
+}
+.container .fun-facts .fun-facts-text{
+  line-height: 25px;
+  margin-bottom:100px;
 }
