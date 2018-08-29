@@ -62,5 +62,124 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* /////////////////////////*/
+/* Your code starts here! */
+.container{
+  width:1200px;
+  margin:0 auto;
+  padding-left:20px;
+  padding-right:20px;
+}
+/* HEADER TAGS */
+.container header{
+  position:fixed;
+  background-color:rgb(172, 192, 224);
+  z-index: 1;
+}
+.container header .top-nav{
+  display:inline-block;
+  width:974px;
+  vertical-align: top;
+  margin-top:10px;
+  margin-bottom:60px;
+  position:relative;
+}
+.container .top-nav a:hover{
+  color:black;
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+.container header .top-nav a{
+  color:grey;
+  text-decoration: none;
+  margin:0px 45px 0px;
+}
+header .logo{
+  width:300px auto;
+}
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* GET STARTED TAGS */
+.get-started{
+  display:inline-block;
+  width:750px;
+  margin-top:200px;
+}
+.get-started h1{
+  font-size:5em;
+  text-align: center;
+  margin-right:300px;
+}
+.get-started .get-started-button{
+  width:300px;
+  height:40px;
+  border:2px grey solid;
+  margin-left:70px;
+  font-weight: bold;
+}
+.get-started .get-started-button:hover{
+  cursor: pointer;
+  background:grey;
+  transition:1.2s;
+}
+.get-started .get-started-button p{
+  text-align:center;
+  margin-top:10px;
+}
+.circle-img:hover{
+  transform: scale(1.05);
+  transition:2s;
+  z-index: 0;
+}
+
+/* MAIN SECTION TAGS    */
+.container .main-section{
+  margin-top:125px;
+  border-top:2px solid grey;
+  padding: 25px;
+}
+.container .main-section p{
+  margin-bottom:20px;
+}
+.container .main-section .sub-division{
+  width:545px;
+  display:inline-block;
+}
+.container .middle-img{
+  width:1100px;
+}
+.container .main-section2 .sub-division2{
+  width:330px;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top:20px;
+  margin-bottom:50px;
+}
+.container .contact{
+  padding-top:50px;
+  border-top:2px solid black;
+}
+.container footer{
+  margin-top:30px;
+  text-align: center;
+}
+
+/* Our Vision Page*/
+
+.container .our-vision{
+  background-image: linear-gradient(to bottom right,#11a6ff,#de2300);
+  background-size:1200px 480px;
+  padding-top:150px;
+  padding-bottom: 150px;
+}
+.our-vision h1{
+  font-size: 30px;
+}
+.container .our-vision p{
+  font-size:20px;
+}
+
+/* Random Tags */
+.current-page{
+  text-decoration: underline;
+  font-style:italic;
+}
