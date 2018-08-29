@@ -75,14 +75,13 @@ h1, h2, h3, h4, h5 {
   position:fixed;
   background-color:rgb(172, 192, 224);
   z-index: 1;
+  display:flex;
+  width:1200px;
+  justify-content:space-between;
 }
 .container header .top-nav{
-  display:inline-block;
-  width:974px;
-  vertical-align: top;
-  margin-top:10px;
-  margin-bottom:60px;
-  position:relative;
+  display:flex;
+  justify-content:flex-start;                                                                                                   
 }
 .container .top-nav a:hover{
   color:black;
@@ -95,19 +94,22 @@ h1, h2, h3, h4, h5 {
   margin:0px 45px 0px;
 }
 header .logo{
-  width:300px auto;
+  display:flex;
+  justify-content:flex-end;
 }
 
 /* GET STARTED TAGS */
 .get-started{
-  display:inline-block;
+  display:flex;
   width:750px;
   margin-top:200px;
 }
 .get-started h1{
+  display:flex;
   font-size:5em;
   text-align: center;
-  margin-right:300px;
+  justify-content:flex-start;
+  flex-direction:column-reverse;
 }
 .get-started .get-started-button{
   width:300px;
@@ -124,6 +126,10 @@ header .logo{
 .get-started .get-started-button p{
   text-align:center;
   margin-top:10px;
+}
+.circle-img{
+  display:flex;
+  justify-content:flex-end;
 }
 .circle-img:hover{
   transform: scale(1.05);
@@ -189,3 +195,4 @@ header .logo{
 SERVICES.HTML CSS ONLY!
 
 --------------------*/
+
