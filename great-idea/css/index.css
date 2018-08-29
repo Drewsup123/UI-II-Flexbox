@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 /* /////////////////////////*/
 /* Your code starts here! */
+h1{
+  font-size:2em;
+}
 .container{
   width:1200px;
   margin:0 auto;
@@ -101,21 +104,20 @@ header .logo{
 /* GET STARTED TAGS */
 .get-started{
   display:flex;
-  width:750px;
-  margin-top:200px;
+  flex-wrap:wrap;
+  flex-direction:row;
+  padding-top:50px;
+  justify-content: space-around
 }
 .get-started h1{
-  display:flex;
   font-size:5em;
-  text-align: center;
-  justify-content:flex-start;
-  flex-direction:column-reverse;
+  display:flex;
 }
 .get-started .get-started-button{
+  display:flex;
   width:300px;
   height:40px;
   border:2px grey solid;
-  margin-left:70px;
   font-weight: bold;
 }
 .get-started .get-started-button:hover{
@@ -129,7 +131,7 @@ header .logo{
 }
 .circle-img{
   display:flex;
-  justify-content:flex-end;
+  align-self:flex-end;
 }
 .circle-img:hover{
   transform: scale(1.05);
@@ -139,7 +141,8 @@ header .logo{
 
 /* MAIN SECTION TAGS    */
 .container .main-section{
-  margin-top:125px;
+  display:flex;
+  margin-top:100px;
   border-top:2px solid grey;
   padding: 25px;
 }
@@ -147,15 +150,15 @@ header .logo{
   margin-bottom:20px;
 }
 .container .main-section .sub-division{
-  width:545px;
-  display:inline-block;
+  
 }
 .container .middle-img{
   width:1100px;
 }
+.container .main-section2{
+  display:flex;
+}
 .container .main-section2 .sub-division2{
-  width:330px;
-  display: inline-block;
   margin-right: 50px;
   margin-top:20px;
   margin-bottom:50px;
@@ -168,7 +171,6 @@ header .logo{
   margin-top:30px;
   text-align: center;
 }
-
 /* Our Vision Page*/
 
 .container .our-vision{
@@ -190,9 +192,17 @@ header .logo{
   font-style:italic;
 }
 
+
 /* ------------------
 
 SERVICES.HTML CSS ONLY!
 
 --------------------*/
 
+.container .services{
+  display:flex;
+  flex-direction:column;
+}
+.container .columns{
+  display:flex;
+}
