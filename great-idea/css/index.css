@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5 {
 }
 /* /////////////////////////*/
 /* Your code starts here! */
+/*//////////////////////////*/
 h1{
   font-size:2em;
 }
@@ -68,6 +69,7 @@ h1{
   text-decoration: underline;
   font-style:italic;
   color:black;
+  background:rgb(255, 255, 255);
 }
 .container{
   width:1200px;
@@ -108,15 +110,14 @@ header .logo{
   display:flex;
   flex-wrap:wrap;
   flex-direction:row;
-  padding-top:50px;
-  justify-content: space-around
+  padding:100px 0;
+  justify-content: space-around;
+  border-bottom:2px solid black;
 }
 .get-started h1{
   font-size:5em;
-  display:flex;
 }
 .get-started .get-started-button{
-  display:flex;
   width:300px;
   height:40px;
   border:2px grey solid;
@@ -131,10 +132,6 @@ header .logo{
   text-align:center;
   margin-top:10px;
 }
-.circle-img{
-  display:flex;
-  align-self:flex-end;
-}
 .circle-img:hover{
   transform: scale(1.05);
   transition:2s;
@@ -144,30 +141,25 @@ header .logo{
 /* MAIN SECTION TAGS    */
 .container .main-section{
   display:flex;
-  margin-top:100px;
-  border-top:2px solid grey;
-  padding: 25px;
+  margin-top:20px;
+  margin-bottom: 20px;
 }
-.container .main-section p{
-  margin-bottom:20px;
+.container .main-section .sub-division{
+ width:100%;
+}
+.container .main-section .sub-division p{
+  width:90%;
 }
 .container .middle-img{
-  width:1100px;
-}
-.container .main-section2{
-  display:flex;
-}
-.container .main-section2 .sub-division2{
-  margin-right: 50px;
-  margin-top:20px;
-  margin-bottom:50px;
+  width:1160px;
+  height:auto;
 }
 .container .contact{
   padding-top:50px;
   border-top:2px solid black;
 }
 .container footer{
-  margin-top:30px;
+  margin-top:50px;
   text-align: center;
 }
 /* Our Vision Page*/
