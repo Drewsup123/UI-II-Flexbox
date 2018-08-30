@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5 {
 h1{
   font-size:2em;
 }
+.current-page{
+  text-decoration: underline;
+  font-style:italic;
+  color:black;
+}
 .container{
   width:1200px;
   margin:0 auto;
@@ -183,18 +188,12 @@ header .logo{
   font-size:20px;
 }
 
-/* Random Tags */
-.current-page{
-  text-decoration: underline;
-  font-style:italic;
-}
-
-
 /* ------------------
 
 SERVICES.HTML CSS ONLY!
 
 --------------------*/
+
 .container .services-header-img{
   width:1160px;
   height:auto;
@@ -216,7 +215,7 @@ SERVICES.HTML CSS ONLY!
   padding:20px;
   height:300px;
   margin-left:0;
-}
+}                                       /* NEED TO FIND A BETTER WAY TO ORGANIZE THIS---- KEEPS REPEATING ITSELF*/
 .container .columns .row2{
   background:#F5F5F5;
   border:2px solid grey;
@@ -238,7 +237,7 @@ SERVICES.HTML CSS ONLY!
   color:white;
 }
 .container .fun-facts{
-  display:flex;
+  display:fleX;
   margin-top:20px;
   padding-top:50px;
   border-top:3px solid black;
@@ -246,8 +245,6 @@ SERVICES.HTML CSS ONLY!
 }
 .container .fun-facts .fun-facts-text{
   width:50%;
-}
-.container .fun-facts .fun-facts-text{
   line-height: 25px;
   margin-bottom:100px;
 }
