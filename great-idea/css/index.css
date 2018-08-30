@@ -198,8 +198,7 @@ SERVICES.HTML CSS ONLY!
 .container .services-header-img{
   width:1160px;
   height:auto;
-  margin-top:30px;
-  margin-bottom: 30px;
+  margin-top:30px 0;
 }
 .container .services{
   display:flex;
@@ -211,7 +210,7 @@ SERVICES.HTML CSS ONLY!
   display:flex;
 }
 .container .columns .row1{
-  background:#d6e5ea;
+  background:#F5F5F5;
   border:2px solid grey;
   margin:25px;
   padding:20px;
@@ -219,24 +218,24 @@ SERVICES.HTML CSS ONLY!
   margin-left:0;
 }
 .container .columns .row2{
-  background:#d6e5ea;
+  background:#F5F5F5;
   border:2px solid grey;
   margin:25px;
   padding:15px;
   margin-right:0
 }
 .container .columns .learn-more-btn{
-  border:1px solid black;
-  border-radius:15%;
-  background:#dae9ef;
-  height:50px;
+  padding: 10px 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid black;
   width:200px;
-  margin-top:40px;
 }
-.container .columns .learn-more-btn p{
-  display:flex;
-  justify-content: center;
-  margin-top:15px;
+.container .columns .learn-more-btn:hover{
+  background:black;
+  color:white;
 }
 .container .fun-facts{
   display:flex;
